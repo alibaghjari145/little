@@ -1,0 +1,267 @@
+/* کد های مخصوص  menu */
+
+div.sticky {
+  position: fixed;
+  background-image: linear-gradient(to right, #0067a5, #3b2669);
+  height: 81px;
+  top: 0;
+}
+
+nav {
+  flex-wrap: nowrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
+menu:after, menu:before {
+  display: table;
+  content: ' ';
+}
+
+menu:after {
+  clear: both;
+}
+
+li {
+  background-color: #1c39bb;
+  list-style-type: none;
+  float: left;
+  margin-right: 1px;
+}
+
+li a {
+  position: relative;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 120px;
+  height: 66px;
+}
+
+a span {
+  display: block;
+  font-size: 32px;
+  padding: 20px 15px;
+  color: #222;
+  position: absolute;
+  font-size: medium;
+  color: #ffffff;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  transition: all .2s;
+}
+
+a:before {
+  display: block;
+  content: ' ';
+  position: absolute;
+  transition: all .2s;
+}
+
+a:hover span {
+  color: #ffffff;
+  transition: all .2s;
+}
+
+a:hover:before {
+  transition: all .3s;
+}
+
+.c1:before {
+  background-color: #cc3333;
+}
+
+.c2:before {
+  background-color: #cc3333;
+}
+
+.c3:before {
+  background-color: #cc3333;
+}
+
+.c4:before {
+  background-color: #cc3333;
+}
+
+.c5:before {
+  background-color: #cc3333;
+}
+
+hr {
+  width: 100px;
+  margin: 50px auto;
+}
+
+/* Top 
+********************/
+
+menu {
+  padding: 0;
+  margin: 0;
+}
+
+nav.top a:before {
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 100%;
+}
+
+.top {
+  width: 70%;
+  float: left;
+  margin: 0;
+}
+
+nav.top a:hover:before {
+  height: 100%;
+}
+
+/* کدهای مخصوص header */
+
+header {
+  height: 462px;
+  background-color: #3b2669;
+  /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #0067a5, #3b2669);
+  /* Standard syntax (must be last) */
+}
+
+.ppic {
+  float: right;
+  width: 30%;
+}
+
+.firstpic {
+  float: left;
+  margin-top: 140px;
+}
+
+* {
+  overflow-x: hidden;
+}
+
+/* کد های مخصوص main  */
+
+main {
+  color: #ffffff;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 17px;
+  background-image: linear-gradient(to left, #0067a5, #3b2669);
+}
+
+main>div {
+  background-color: rgba(192, 192, 192, 0.3);
+  height: auto;
+  border-radius: 5px;
+  padding: 7px;
+  margin: 5px 5px;
+}
+
+main div {
+  direction: rtl;
+  flex-direction: row;
+}
+
+.left, .right {
+  width: 23%;
+  flex-direction: column;
+}
+
+.dmain {
+  width: 45%;
+  clear: both;
+  flex-direction: row;
+}
+
+/* کدهای منوی داخل متن */
+
+.dmainsec {
+  float: left;
+  width: 25%;
+}
+
+.dmainmenu {
+  float: right;
+  width: 185px;
+  padding: 0%;
+}
+
+.dmainnav {
+  border-radius: 5px;
+  height: 587px;
+  display: flex;
+  flex-direction: column!important;
+}
+
+.nav-item {
+  flex: 1;
+  color: darkblue;
+  background-color: #ffffff;
+}
+
+.nav-item:hover {
+  color: #ffffff;
+  font-size: medium;
+  background-color: #cc3333;
+}
+
+div.right img, div.left img {
+  margin: 20px 0;
+  width: 100%;
+}
+.rast{
+  direction: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* کد های مخصوص footer */
+
+footer {
+  padding-top: 60px;
+  height: 462px;
+  margin-top: 17px;
+  background-image: linear-gradient(to right, #0067a5, #3b2669);
+}
+
+.pic {
+  width: 100%;
+}
+
+.ffirst {
+  display: none;
+}
+
+div.fsecond div {
+  width: 50%;
+  color: white;
+  margin: auto;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.fsec {
+  font-size: 40px;
+  text-shadow: 3px 3px 4px black;
+  border-bottom: 7px white dotted;
+  padding: 10px;
+}
